@@ -1,0 +1,7 @@
+langchain
+streamlit
+aiohttp
+duckduckgo-search
+beautifulsoup4
+html2text
+pyjwt
