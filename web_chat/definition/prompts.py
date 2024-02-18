@@ -108,11 +108,11 @@ def get_rewrite_prompt() -> list[dict]:
     return examples + [placehold]
 
 def get_search_prompt_full() -> list[dict]:
-    prefix = "\nRewrite all the chat history into queries for Google search: "
+    prefix = "\nRewrite all the chat history into queries (as less as possible) for Google search: "
     examples = [
         {
             "role": "system", 
-            "content": f"You are chatting with a user. Enumerate Google search query statements combined with all chat history. Today's date is {tools.get_current_datetime()}"
+            "content": f"You are chatting with a user. Rewrite all the chat history into queries for Google search. Today's date is {tools.get_current_datetime()}"
         }, {
             "role": "user", 
             "content": "\n".join([

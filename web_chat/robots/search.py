@@ -44,7 +44,7 @@ if __name__ == "__main__":
     messages = [
         {
             "role": "user", 
-            "content": "韩信和吴起谁打的胜仗多"
+            "content": "帮我搜下最近关于EA的新闻"
         }
     ]
     response = rewrite_robot.infer(messages = messages)

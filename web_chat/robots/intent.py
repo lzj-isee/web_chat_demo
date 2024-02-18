@@ -49,7 +49,7 @@ if __name__ == "__main__":
     messages = [
         {
             "role": "user", 
-            "content": "帮我翻译下这句话成英文：“你是一个机器人，正在与用户对话，你可以使用谷歌搜索”"
+            "content": "我在一台电脑push了一个github项目，现在我换电脑了，能正常pull，改了一些东西，怎么再push？"
         }
     ]
     response = intent_analyzer.infer(messages = messages)
