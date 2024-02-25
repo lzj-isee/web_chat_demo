@@ -66,5 +66,5 @@ class GLM(_LLM):
                 if raw_response: return response
                 else: return self.check_response(response)
 
-default_glm_3_turbo = GLM(model = "glm-3-turbo", do_sample = False)
-default_glm_4_turbo = GLM(model = "glm-4", do_sample = False)
+default_glm_3_turbo = GLM(model = "glm-3-turbo", do_sample = True)
+default_glm_4_turbo = GLM(model = "glm-4", do_sample = True)

@@ -71,3 +71,5 @@ class Qwen(_LLM):
                 else: return self.check_response(response)
 
 default_qwen_turbo = Qwen(model = "qwen-turbo")
+default_qwen_plus = Qwen(model = "qwen-plus")
+default_qwen_max = Qwen(model = "qwen-max-1201")
